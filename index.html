@@ -14,7 +14,7 @@
     <script type="module" crossorigin src="/project-WebGuru/index.js"></script>
     <link rel="modulepreload" crossorigin href="/project-WebGuru/assets/vendor-BR-JF9Rk.js">
     <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/vendor-CaZiYwtM.css">
-    <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/index-DwoU7sUy.css">
+    <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/index-CC53z-0U.css">
   </head>
   <body>
     <!-- <header class="header">
@@ -32,10 +32,18 @@
         <a href="#" class="header-link menu">Menu</a>
         <nav class="header-navigation visually-hidden">
           <ul class="nav-list">
-            <li><a href="#" class="nav-link">About me</a></li>
-            <li><a href="#" class="nav-link">Benefits</a></li>
-            <li><a href="#" class="nav-link">Projects</a></li>
-            <li><a href="#" class="nav-link">FAQ</a></li>
+            <li class="nav-li">
+              <a href="./about-me.html" class="nav-link">About me</a>
+            </li>
+            <li class="nav-li">
+              <a href="./benefits.html" class="nav-link">Benefits</a>
+            </li>
+            <li class="nav-li">
+              <a href="./projects.html" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-li">
+              <a href="./faq.html" class="nav-link">FAQ</a>
+            </li>
           </ul>
         </nav>
       </li>
@@ -53,20 +61,32 @@
   </div>
 </header>
  -->
-    <!-- #region Modal -->
-<div class="menu-overlay">
+    <div class="menu-overlay container">
   <div class="menu-modal">
-    <nav class="header-navigation">
+    <button type="button" class="close-menu">
+      <svg class="close-icon" width="28" height="28">
+        <use href="../img/header/icons.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+    <nav class="header-navigation modal-nav">
       <ul class="nav-list">
-        <li><a href="#" class="nav-link">About me</a></li>
-        <li><a href="#" class="nav-link">Benefits</a></li>
-        <li><a href="#" class="nav-link">Projects</a></li>
-        <li><a href="#" class="nav-link">FAQ</a></li>
+        <li class="nav-li">
+          <a href="./partials/about-me.html" class="nav-link">About me</a>
+        </li>
+        <li class="nav-li">
+          <a href="./partials/benefits.html" class="nav-link">Benefits</a>
+        </li>
+        <li class="nav-li">
+          <a href="./projects.html" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-li"><a href="./faq.html" class="nav-link">FAQ</a></li>
       </ul>
     </nav>
+    <div class="order-modal">
+      <a href="./work-together.html" class="header-link">Order the project</a>
+    </div>
   </div>
 </div>
-<!-- #endregion Modal -->
 
     <main>
       <section class="hero">
@@ -589,7 +609,7 @@
     <div class="modal-footer">
       <button class="close-btn-footer" type="button" id="modal-close-footer">
         <svg class="close-icon-footer" height="24" width="24">
-          <use href="/project-WebGuru/assets/icons-ROEMMwmn.svg#icon-x"></use>
+          <use href="/project-WebGuru/assets/icons-C9RP1hrW.svg#icon-x"></use>
         </svg>
       </button>
       <p class="modal-footer-title">
