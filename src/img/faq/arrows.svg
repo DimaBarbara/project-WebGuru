@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+<symbol id="arrow-down" viewBox="0 0 20 20"><!--Стрілочка вниз-->
+<path d="M15 7.5L10 12.5L5 7.5" stroke="#FAFAFA" stroke-width="2"/>
+</symbol>
+<symbol id="arrow-up" viewBox="0 0 20 20"><!--Стрілочка вверх-->
+<path d="M15 12.5L10 7.5L5 12.5" stroke="#FAFAFA" stroke-width="2"/>
+</symbol>
+  </defs>
+</svg>
