@@ -14,50 +14,50 @@
     <script type="module" crossorigin src="/project-WebGuru/index.js"></script>
     <link rel="modulepreload" crossorigin href="/project-WebGuru/assets/vendor-BR-JF9Rk.js">
     <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/vendor-CaZiYwtM.css">
-    <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/index-BYTWj6tA.css">
+    <link rel="stylesheet" crossorigin href="/project-WebGuru/assets/index-DMzNZ4yI.css">
   </head>
   <body>
     <header class="header">
-  <div class="header container">
+  <div class="header-box container">
     <ul class="header-list">
       <li class="li-logo">
-        <a href="#" class="header-link logo"
-          ><img src="/project-WebGuru/assets/logo-DAjlSAoT.png" width="80" height="80" />
+        <a href="../index.html" class="header-link logo"
+          ><img src="/project-WebGuru/assets/logo-DAjlSAoT.png" alt="logo" width="80" height="80" />
           <svg width="84" height="19">
-            <use href="./img/header/icons.svg#icon-jefferson"></use>
+            <use href="../img/icons.svg#icon-jefferson"></use>
           </svg>
         </a>
       </li>
       <li class="li-menu">
-        <a href="../index.html" class="header-link menu">Menu</a>
-        <nav class="header-navigation visually-hidden">
+        <a href="#" class="header-link menu"
+          ><span class="span-menu">Menu</span></a
+        >
+        <nav class="header-navigation nav-tab visually-hidden">
           <ul class="nav-list">
             <li class="nav-li">
-              <a href="./about-me.html" class="nav-link tablet">About me</a>
+              <a href="#about-us" class="nav-link tablet">About me</a>
             </li>
             <li class="nav-li">
-              <a href="./benefits.html" class="nav-link tablet">Benefits</a>
+              <a href="#benefits" class="nav-link tablet">Benefits</a>
             </li>
             <li class="nav-li">
-              <a href="./projects.html" class="nav-link tablet">Projects</a>
+              <a href="#projects" class="nav-link tablet">Projects</a>
             </li>
             <li class="nav-li">
-              <a href="./faq.html" class="nav-link tablet">FAQ</a>
+              <a href="#faq" class="nav-link tablet">FAQ</a>
             </li>
           </ul>
         </nav>
       </li>
       <li class="li-order">
         <div class="order">
-          <a href="./work-together.html" class="header-link"
-            >Order the project</a
-          >
+          <a href="#work-together" class="header-link">Order the project</a>
         </div>
       </li>
     </ul>
-    <button type="button" class="burger visually-hidden">
+    <button type="button" class="burger">
       <svg class="burger-icon" width="21" height="9">
-        <use href="../img/header/icons.svg#icon-burger-menu"></use>
+        <use href="../img/icons.svg#icon-burger-menu"></use>
       </svg>
     </button>
   </div>
@@ -67,25 +67,29 @@
   <div class="menu-modal">
     <button type="button" class="close-menu">
       <svg class="close-icon" width="28" height="28">
-        <use href="../img/header/icons.svg#icon-close-menu"></use>
+        <use href="../img/icons.svg#icon-close-menu"></use>
       </svg>
     </button>
     <nav class="header-navigation modal-nav">
-      <ul class="nav-list">
+      <ul class="nav-list-modal">
         <li class="nav-li">
-          <a href="./partials/about-me.html" class="nav-link">About me</a>
+          <a href="#about-us" class="nav-link after-line">About me</a>
         </li>
         <li class="nav-li">
-          <a href="./partials/benefits.html" class="nav-link">Benefits</a>
+          <a href="#benefits" class="nav-link after-line">Benefits</a>
         </li>
         <li class="nav-li">
-          <a href="./projects.html" class="nav-link">Projects</a>
+          <a href="#projects" class="nav-link after-line">Projects</a>
         </li>
-        <li class="nav-li"><a href="./faq.html" class="nav-link">FAQ</a></li>
+        <li class="nav-li">
+          <a href="#faq" class="nav-link after-line">FAQ</a>
+        </li>
       </ul>
     </nav>
     <div class="order-modal">
-      <a href="./work-together.html" class="header-link">Order the project</a>
+      <a href="#work-together" class="header-link work-together"
+        >Order the project</a
+      >
     </div>
   </div>
 </div>
@@ -652,7 +656,7 @@
     <div class="modal-footer">
       <button class="close-btn-footer" type="button" id="modal-close-footer">
         <svg class="close-icon-footer" height="24" width="24">
-          <use href="./img/header/icons.svg#icon-x"></use>
+          <use href="/project-WebGuru/assets/icons-BwWNlpHp.svg#icon-x"></use>
         </svg>
       </button>
       <h3 class="modal-footer-title">
